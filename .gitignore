@@ -1,0 +1,26 @@
+# Ignore virtual environment
+.coins_env/
+airflow/local-executor/logs/
+notebook/venv/
+notebook/.ipynb_checkpoints/
+
+# Ignore Terraform files
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/.keys
+terraform/terraform*
+# Ignore Python cache files
+airflow/local-executor/dags/utils/__pycache__
+airflow/local-executor/dags/__pycache__
+
+# Ignore Airflow logs and plugins
+airflow/logs/
+airflow/plugins/
+airflow/.env
+
+# Ignore Grafana data directories and files
+grafana/grafana-data/png/
+grafana/grafana-data/csv/
+grafana/grafana-data/pdf/
+grafana/grafana-data/grafana.db
+mysql/db_data/*
