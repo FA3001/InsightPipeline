@@ -97,9 +97,6 @@ The aim of this project is to test and demonstrate a complete data engineering a
        
     *Implementation*: Use tools like Prometheus and Grafana for monitoring.
 
-## License 📝
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgements 🙏
 
